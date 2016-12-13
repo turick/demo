@@ -19,7 +19,8 @@ public class Demo {
 
     @PostConstruct
     public void init() {
-        String prop = env.getProperty("my.very.long.property");
-        log.info("my.very.long.property value: " + prop);
+        String testProp = env.getProperty("my.very.long.property");
+        log.info("my.very.long.property value: " + testProp);
     }
+
 }

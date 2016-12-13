@@ -13,3 +13,6 @@ my:
   very:
     long:
       property: ${prop:foo}
+
+server:
+  port: ${port:8081}
